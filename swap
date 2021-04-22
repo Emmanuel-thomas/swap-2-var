@@ -1,0 +1,7 @@
+num1 = 10
+num2 = 20
+print("defaults\nnum1=", num1, "num2=", num2)
+num1 += num2
+num2 = num1 - num2
+num1 -= num2
+print("after swap\nnum1=", num1, "num2=", num2)
